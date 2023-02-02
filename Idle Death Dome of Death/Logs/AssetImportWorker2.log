@@ -1,0 +1,461 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16224 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/carso/OneDrive/Desktop/Unity Games/Idle Death Dome of Death
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+61826
+Successfully changed project path to: C:/Users/carso/OneDrive/Desktop/Unity Games/Idle Death Dome of Death
+C:/Users/carso/OneDrive/Desktop/Unity Games/Idle Death Dome of Death
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [123900] Host "[IP] 10.127.153.72 [Port] 0 [Flags] 2 [Guid] 668645207 [EditorId] 668645207 [Version] 1048832 [Id] WindowsEditor(7,BeepBeepBoop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [123900] Host "[IP] 10.127.153.72 [Port] 0 [Flags] 2 [Guid] 668645207 [EditorId] 668645207 [Version] 1048832 [Id] WindowsEditor(7,BeepBeepBoop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 55.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carso/OneDrive/Desktop/Unity Games/Idle Death Dome of Death/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8050 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003612 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 62.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.503 seconds
+Domain Reload Profiling:
+	ReloadAssembly (503ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (362ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (111ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005584 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\Idle Death Dome of Death\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carso\OneDrive\Desktop\Unity Games\Idle Death Dome of Death\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (176ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (240ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3430 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (113.4 KB). Loaded Objects now: 3889.
+Memory consumption went from 127.3 MB to 127.2 MB.
+Total: 3.369400 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.180100 ms MarkObjects: 2.819200 ms  DeleteObjects: 0.128800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 754768.363297 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Banister.prefab
+  artifactKey: Guid(65f88c6d9b9a38b43a401f0907472306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Banister.prefab using Guid(65f88c6d9b9a38b43a401f0907472306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee31dede38386fec4c38a07b41ccc8f6') in 0.267365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Candle_2.prefab
+  artifactKey: Guid(867cc386a740d124095971d57b521113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Candle_2.prefab using Guid(867cc386a740d124095971d57b521113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff5e06399cfd63cedfcd705df8f3bf3') in 0.141266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Books_Group_1.prefab
+  artifactKey: Guid(5002c2ff35b0da349bbc6715b575a2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Books_Group_1.prefab using Guid(5002c2ff35b0da349bbc6715b575a2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bbb1e6f60418d8a2484aa5bf0daadc') in 0.021397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Clock_Small Variant.prefab
+  artifactKey: Guid(43342d9d044ab3142a70fc411772e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Clock_Small Variant.prefab using Guid(43342d9d044ab3142a70fc411772e2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110646a6e4bf30e3514a964d75ae8efb') in 0.057639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Box_2_2.prefab
+  artifactKey: Guid(1607f3e32dd6a184da6e91cf358000dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Box_2_2.prefab using Guid(1607f3e32dd6a184da6e91cf358000dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c3e6127885626e0213994231f2e745') in 0.044197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Couch_1.prefab
+  artifactKey: Guid(21a589af3926e6c4784d3cc6d2ccc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Couch_1.prefab using Guid(21a589af3926e6c4784d3cc6d2ccc5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f9c26455bf4a133952c7000c150a84') in 0.027994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Bottle_6.prefab
+  artifactKey: Guid(42375d2c8087d25439cb5897f52ae571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Bottle_6.prefab using Guid(42375d2c8087d25439cb5897f52ae571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb8b41193484be50e080df8b0e72407') in 0.028032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Carpet_3.prefab
+  artifactKey: Guid(b917cb83ca4d85a488379ea392d2570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Carpet_3.prefab using Guid(b917cb83ca4d85a488379ea392d2570c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e102e0a18eb48eee5864e4de127f79') in 0.018096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Bottle_1.prefab
+  artifactKey: Guid(6691445c012e7d64db17c551684f7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Bottle_1.prefab using Guid(6691445c012e7d64db17c551684f7436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7068194d39bc408ee65e54e6e1dc103') in 0.028368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Book_9.prefab
+  artifactKey: Guid(3c41e1c36432aef4bb329e5ae53c88a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Book_9.prefab using Guid(3c41e1c36432aef4bb329e5ae53c88a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6922617c7d593ad0741be8d3980a37cb') in 0.031681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Book_2.prefab
+  artifactKey: Guid(3db9702ab99294a4ab34f47de04cd1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Book_2.prefab using Guid(3db9702ab99294a4ab34f47de04cd1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd175f06a0d5ec9f9565da119bb2edb36') in 0.025251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Clock.prefab
+  artifactKey: Guid(72189a2701d453047bcf01f2cc96501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Clock.prefab using Guid(72189a2701d453047bcf01f2cc96501a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5930f0f45a9b3bb9a3d3a82d33ab3a00') in 0.171291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.506916 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Particle System.prefab
+  artifactKey: Guid(c21c5c6cc00bae1478ae61b12e50cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Particle System.prefab using Guid(c21c5c6cc00bae1478ae61b12e50cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb87aeda7e3daa84ac6fffb55c56dc99') in 0.022621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Picture_6.prefab
+  artifactKey: Guid(f1376fb996498454c93b351ccad40759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Picture_6.prefab using Guid(f1376fb996498454c93b351ccad40759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6628e79f617ebf588628e9faa72615fe') in 0.025864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Plate_1.prefab
+  artifactKey: Guid(7dd029d0133b44942adf868f82237751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Plate_1.prefab using Guid(7dd029d0133b44942adf868f82237751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7052621bf2e1def7c746bcf3004f6110') in 0.023908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Picture_4.prefab
+  artifactKey: Guid(19f0d0c8626205b4a9cb967b4afe195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Picture_4.prefab using Guid(19f0d0c8626205b4a9cb967b4afe195f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227e79c78d7864fe5a1dbe6fc7b792e2') in 0.024148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.499190 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Scroll_2.prefab
+  artifactKey: Guid(433d935d3e63f5f4bb84af765878bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Scroll_2.prefab using Guid(433d935d3e63f5f4bb84af765878bcbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d67461e476cf698015998ad73b471a2') in 0.026218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Table_2.prefab
+  artifactKey: Guid(35f0c6b3d82db5145934a53840eb9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Table_2.prefab using Guid(35f0c6b3d82db5145934a53840eb9274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113296d1f85d99b164c31cf8f931ac1') in 0.025177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Sponge_2.prefab
+  artifactKey: Guid(7e9d539c0ef02834c8dee66466abdc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Sponge_2.prefab using Guid(7e9d539c0ef02834c8dee66466abdc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08aaac1fd44e9ae673080087ce0a6f8') in 0.020771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Stair.prefab
+  artifactKey: Guid(8e9fc1b60d8fb094f8777d66125f4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Stair.prefab using Guid(8e9fc1b60d8fb094f8777d66125f4aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58db55551627dbb3ff4298e0c279d509') in 0.039173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.971720 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Table_6.prefab
+  artifactKey: Guid(d726c6a2e5bee3d4ba3a5c70208d9e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Table_6.prefab using Guid(d726c6a2e5bee3d4ba3a5c70208d9e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d67d34775f1442fbac09dbe826bbd') in 0.036422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Vase_2.prefab
+  artifactKey: Guid(fa0de3026ca82194a94d5a0c75372557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Vase_2.prefab using Guid(fa0de3026ca82194a94d5a0c75372557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3384c506abc1b0a34bbd88e541bf0b2a') in 0.028951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_3.prefab
+  artifactKey: Guid(e4725a068e9fafa4f932d60887b31779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_3.prefab using Guid(e4725a068e9fafa4f932d60887b31779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c223a0030bd9bf58ee586e71d2f11f') in 0.023436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_7.prefab
+  artifactKey: Guid(4e8e9916c2a8b664a80178314b77b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_7.prefab using Guid(4e8e9916c2a8b664a80178314b77b2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65999ba042361bcec73b50dab5947ddb') in 0.030512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Vase_4.prefab
+  artifactKey: Guid(fc022999ae807ff42bd06d4e0867451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Vase_4.prefab using Guid(fc022999ae807ff42bd06d4e0867451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24edacfeeffa4744d7fc3d00c911fb03') in 0.029235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_1.prefab
+  artifactKey: Guid(8b52a049bbba76b4187f855da48487cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Prefabs/Wall_1.prefab using Guid(8b52a049bbba76b4187f855da48487cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966d5114fe6932e98c95593249cc1b9f') in 0.028472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.697907 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Alphas_Albedo.psd
+  artifactKey: Guid(96461e73543d96247919bc7c311f5dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Alphas_Albedo.psd using Guid(96461e73543d96247919bc7c311f5dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836270d2e2c108070a7f69548fda50c5') in 0.029398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Bathroom_Wood.mat
+  artifactKey: Guid(573726016b6589941b2c72a72db28d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Bathroom_Wood.mat using Guid(573726016b6589941b2c72a72db28d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd208dd16a916f291647443c88a6f45fe') in 0.041827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_1_Albedo.psd
+  artifactKey: Guid(3c0afccfe8b6e1e49b058a28274b3216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_1_Albedo.psd using Guid(3c0afccfe8b6e1e49b058a28274b3216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14540448da85fe93b3595dd02ee204a7') in 0.020889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Candles_AO.psd
+  artifactKey: Guid(c6e0e72e5989c0a46a44a31c525e17ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Candles_AO.psd using Guid(c6e0e72e5989c0a46a44a31c525e17ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c1e3509907c25652e08fec724b7d8a') in 0.025640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_1_Normal.psd
+  artifactKey: Guid(f0acd39de628e67418bf73c7e74501a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_1_Normal.psd using Guid(f0acd39de628e67418bf73c7e74501a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2345cf37f35f93c31f4ea72ec83e0aec') in 0.030383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Bookshelf_Normal.psd
+  artifactKey: Guid(c5de38cd3aa75624b95123375afc33a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Bookshelf_Normal.psd using Guid(c5de38cd3aa75624b95123375afc33a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede90f0a941deb12bcde45d096bae9c') in 0.025759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Banister_Normal.png
+  artifactKey: Guid(fe44f0dc195537e42aed196b6e856c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Banister_Normal.png using Guid(fe44f0dc195537e42aed196b6e856c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4aace43643cbaaaa229e63824c3913') in 0.018510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Chairs_MetallRough.psd
+  artifactKey: Guid(55d2b915c87f2a84dbba90a209617598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Chairs_MetallRough.psd using Guid(55d2b915c87f2a84dbba90a209617598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565b2ed521b2d23e80e02dbe646e4242') in 0.013494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Bed_AO.tif
+  artifactKey: Guid(7c8948abeb77cd940881c3956f75dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Bed_AO.tif using Guid(7c8948abeb77cd940881c3956f75dbae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16abf4f27a3f0cc2c3e77b70f7bd08cc') in 0.020221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard_2_Albedo.psd
+  artifactKey: Guid(b82e5e9c7c684e543966a4dd3babe773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard_2_Albedo.psd using Guid(b82e5e9c7c684e543966a4dd3babe773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4901626235b955e37394656f02c5ab') in 0.021060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Bathroom_Wood_MetallRough.psd
+  artifactKey: Guid(5055826c1eca5ca4b8becd7ff9abfc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Bathroom_Wood_MetallRough.psd using Guid(5055826c1eca5ca4b8becd7ff9abfc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d66f905c42694efa2f858eecc07a8b9') in 0.013720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Candles.mat
+  artifactKey: Guid(f29dc6648af0d724baf23fb4a45aed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Candles.mat using Guid(f29dc6648af0d724baf23fb4a45aed64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23551106111b82d29d5932c2ef7aa14b') in 0.028682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Ceiling.mat
+  artifactKey: Guid(6fc0d550cf03e25439e7fe4c18af26b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Ceiling.mat using Guid(6fc0d550cf03e25439e7fe4c18af26b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f7403d5d793baf112e6a2e0e058ef0') in 0.026148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_2_Normal.psd
+  artifactKey: Guid(75a748af796cad240a15498dd0c83d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_2_Normal.psd using Guid(75a748af796cad240a15498dd0c83d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a3d9c53177de5495a2069d848c8ace') in 0.039243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard Glass.mat
+  artifactKey: Guid(b49d9adeaf7de594fb7d0ab725d807ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard Glass.mat using Guid(b49d9adeaf7de594fb7d0ab725d807ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7faddfd10997312df7557542bceeff35') in 0.024671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Carpets_AO.psd
+  artifactKey: Guid(3b9396adc715bab41b48227a93c8d9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Carpets_AO.psd using Guid(3b9396adc715bab41b48227a93c8d9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c6e7c0cd832cdff7b0dd86f318c4d0') in 0.013689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_2_Brown_Albedo.psd
+  artifactKey: Guid(a5649e65fda800c418b0410a8f421697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Couch_2_Brown_Albedo.psd using Guid(a5649e65fda800c418b0410a8f421697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a984a8b46c71bd2013282c79098c740b') in 0.039061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.609288 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard_Albedo.psd
+  artifactKey: Guid(e8322461cda4fee4da1b0d996cd4c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Cupboard_Albedo.psd using Guid(e8322461cda4fee4da1b0d996cd4c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f07fb783bdd145fe79930ee8996fc1d') in 0.015934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Curtains.mat
+  artifactKey: Guid(9bc6b63375ab6834d98f53a72d72f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Curtains.mat using Guid(9bc6b63375ab6834d98f53a72d72f5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47561e1466d7b715aca909e26e295076') in 0.022030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Doors_AO.psd
+  artifactKey: Guid(47d9459e74497ce41b17bee23b71a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Doors_AO.psd using Guid(47d9459e74497ce41b17bee23b71a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f9a998e0bb5d116fc9f7b3a1041b8d') in 0.014309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.350391 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Floor.mat
+  artifactKey: Guid(f18fda163a0a0944ba5b87808b4ce0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Floor.mat using Guid(f18fda163a0a0944ba5b87808b4ce0ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955536c64dcb1b34662930606a28b3c1') in 0.019133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Frames_MetallRough.psd
+  artifactKey: Guid(2039b2426962eda43b0e11855391d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Frames_MetallRough.psd using Guid(2039b2426962eda43b0e11855391d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8650ea0e5bcb49f24cdb81e08794ade1') in 0.021735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Victorian Interiors/Victorian Interiors/Materials/Frames_Normal.psd
+  artifactKey: Guid(4b97cdf03b4d5f641b02435dd537b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Victorian Interiors/Victorian Interiors/Materials/Frames_Normal.psd using Guid(4b97cdf03b4d5f641b02435dd537b41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39654e0c93b2e54a393dde86108e8ba2') in 0.018117 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
